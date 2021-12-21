@@ -114,30 +114,30 @@ https://docs.github.com/en/github/importing-your-projects-to-github/importing-so
 
 //User
 
-http://localhost:9090/loginController/getUser/121
-http://localhost:9090/loginController/getUser/1218
-http://localhost:9090/loginController/signOut
+http://localhost:8080/loginController/getUser/121
+http://localhost:8080/loginController/getUser/1218
+http://localhost:8080/loginController/signOut
 
 
 //product
-http://localhost:9090/productController/viewAllProducts
-http://localhost:9090/productController/addProduct
+http://localhost:8080/productController/viewAllProducts
+http://localhost:8080/productController/addProduct
 
 //address
-http://localhost:9090/addressController/addAddress
-http://localhost:9090/addressController/updateAddress
+http://localhost:8080/addressController/addAddress
+http://localhost:8080/addressController/updateAddress
 
 
 
 
 
 //cart
-http://localhost:9090/cartController/viewAllProducts
+http://localhost:8080/cartController/viewAllProducts
 {
     "cartId":"1218"
 }
 
-http://localhost:9090/cartController/addProductToCart/2
+http://localhost:8080/cartController/addProductToCart/2
 
 {
 "cartdto":{
@@ -161,5 +161,5 @@ http://localhost:9090/cartController/addProductToCart/2
    }
 
 
-http://localhost:9090/customerController/addCust
-http://localhost:9090/customerController/removeCust
+http://localhost:8080/customerController/addCust
+http://localhost:8080/customerController/removeCust
