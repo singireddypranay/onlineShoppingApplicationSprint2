@@ -68,7 +68,7 @@ public class AddressController {
      * Created By- Jyothi Prakash
      * Created Date - 30-11-2021 
      */
-	@GetMapping("/viewAllAddress")
+	@GetMapping("/viewAllAddress/{id}")
 	public ResponseEntity<Address> viewAllAddress(@PathVariable String id )throws AddressNotFoundException{
 		Address address=add_ser.viewAllAddress(id);
 		return new ResponseEntity(address,HttpStatus.OK);

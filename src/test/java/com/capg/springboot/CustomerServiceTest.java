@@ -1,20 +1,19 @@
-package com.capg.springboot.service;
+package com.capg.springboot;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import com.capg.springboot.Exceptions.CustomerNotFoundException;
 import com.capg.springboot.entity.Customer;
 import com.capg.springboot.repository.CustomerRepository;
+import com.capg.springboot.service.CustomerServiceImpl;
 
-@RunWith(SpringRunner.class)
+/*@RunWith(SpringRunner.class)*/
 @SpringBootTest
 public class CustomerServiceTest {
 

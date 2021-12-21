@@ -1,7 +1,7 @@
-package com.capg.springboot.service;
+package com.capg.springboot;
 
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
+//import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
@@ -10,8 +10,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.capg.springboot.entity.Product;
 import com.capg.springboot.repository.ProductRepository;
+import com.capg.springboot.service.ProductServiceImpl;
 
-@RunWith(SpringRunner.class)
+//@RunWith(SpringRunner.class)
 @SpringBootTest
 public class ProdServiceTest {
 

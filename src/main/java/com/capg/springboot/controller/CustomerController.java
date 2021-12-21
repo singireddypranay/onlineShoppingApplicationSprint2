@@ -78,7 +78,7 @@ public class CustomerController {
 	@DeleteMapping("/removeCust") 
 	public ResponseEntity<Customer> removeCustomer(@RequestBody Customer customer){
        Customer custImpl=cust_ser.removeCustomer(customer);
-       return new ResponseEntity(custImpl,HttpStatus.OK); 
+       return new ResponseEntity("Customer is removed",HttpStatus.OK); 
        }
 	
 }

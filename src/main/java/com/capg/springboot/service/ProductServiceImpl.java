@@ -137,7 +137,6 @@ public class ProductServiceImpl implements ProductService {
      */
 	@Override
 	public List<Product> findAllProductByCategory(String cname) throws ProductNotFoundException {
-          
 		List<Product> product= pro_repo.findAllProductByCategory(cname);
 		 if(product==null||product.size()==0)
 			 throw new ProductNotFoundException("Product Not Found");
